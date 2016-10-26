@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AB6910B1D9272EF001EE88A /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9AB6910A1D9272EF001EE88A /* download.jpeg */; };
 		9AE19F7A1D9249E700F1108E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE19F791D9249E700F1108E /* AppDelegate.swift */; };
 		9AE19F7C1D9249E700F1108E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE19F7B1D9249E700F1108E /* ViewController.swift */; };
 		9AE19F7F1D9249E700F1108E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE19F7D1D9249E700F1108E /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9AB6910A1D9272EF001EE88A /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
 		9AE19F761D9249E700F1108E /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE19F791D9249E700F1108E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AE19F7B1D9249E700F1108E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AB691091D9272DF001EE88A /* anh */ = {
+			isa = PBXGroup;
+			children = (
+				9AB6910A1D9272EF001EE88A /* download.jpeg */,
+			);
+			name = anh;
+			sourceTree = "<group>";
+		};
 		9AE19F6D1D9249E700F1108E = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +64,7 @@
 		9AE19F781D9249E700F1108E /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				9AB691091D9272DF001EE88A /* anh */,
 				9AE19F791D9249E700F1108E /* AppDelegate.swift */,
 				9AE19F7B1D9249E700F1108E /* ViewController.swift */,
 				9AE19F7D1D9249E700F1108E /* Main.storyboard */,
@@ -124,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AE19F841D9249E700F1108E /* LaunchScreen.storyboard in Resources */,
+				9AB6910B1D9272EF001EE88A /* download.jpeg in Resources */,
 				9AE19F811D9249E700F1108E /* Assets.xcassets in Resources */,
 				9AE19F7F1D9249E700F1108E /* Main.storyboard in Resources */,
 			);
@@ -297,6 +309,7 @@
 				9AE19F8A1D9249E700F1108E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
